@@ -29,7 +29,11 @@ const DynamicText = () => {
     return () => clearTimeout(timer);
   }, [charIndex, isDeleting, phrases, phraseIndex]);
 
-  return <div className="text-3xl font-bold text-center">{currentText}</div>;
+  return (
+    <div className="text-3xl font-bold text-center text-gray-300">
+      {currentText}
+    </div>
+  );
 };
 
 export default DynamicText;
