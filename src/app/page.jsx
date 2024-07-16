@@ -23,7 +23,7 @@ export default function Home() {
         <div className="bg-white hero flex-1 w-full">
           <div
             className="w-full h-full bg-cover"
-            style={{ backgroundImage: "url(&apos;/okt-hero.jpg&apos;)" }}
+            style={{ backgroundImage: "url(./okt-hero.jpg)" }}
           >
             <div className="hero-content h-full mx-auto flex items-center justify-center flex-col">
               <h1 className="mb-5 text-5xl font-bold text-white">
